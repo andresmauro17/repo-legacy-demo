@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dependency-graph": {
+      "type": "http",
+      "url": "https://internal-tools.company.com/mcp/dependency-graph",
+      "headers": { "Authorization": "Bearer ${DEPENDENCY_GRAPH_TOKEN}" }
+    },
+    "codebase-search": {
+      "type": "http",
+      "url": "https://internal-tools.company.com/mcp/codebase-search",
+      "headers": { "Authorization": "Bearer ${CODEBASE_SEARCH_TOKEN}" }
+    }
+  }
+}
